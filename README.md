@@ -19,6 +19,7 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
 ![image](https://github.com/facetint/FdF/assets/99668549/8e04f711-a3f7-4a3e-939f-0fa7a585adc5)
 
+
 ▶︎ In 3D space, rotation can occur about the x, y, or z-axis.
 
 ▶︎ Our goal is to construct three 3x3 matrices, one for each rotation about one of the axes.
@@ -27,13 +28,20 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
 <img width="252" alt="Ekran Resmi 2023-11-19 19 43 51" src="https://github.com/facetint/FdF/assets/99668549/5f5841d5-33f4-43a4-999c-123bb07fbe5a">
 
+
 ▶︎ We're using a left-handed coordinate system here, meaning that the x-axis points to the right, the y-axis up, and the z-axis into the screen.
+
+
 
 
 ## 3D Rotation Around the X-Axis
 
 <img width="254" alt="Ekran Resmi 2023-11-19 19 44 11" src="https://github.com/facetint/FdF/assets/99668549/434b620b-0f9e-49ca-ae81-c22d5063be8d">
 
+
 ## 3D Rotation Around the Y-Axis
 
 <img width="254" alt="Ekran Resmi 2023-11-19 19 44 21" src="https://github.com/facetint/FdF/assets/99668549/a765ecf5-f202-4dde-b770-655de85e616a">
+
+
+
