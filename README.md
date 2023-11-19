@@ -15,7 +15,7 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
    DDA (Digital Differential Analyzer) is a line drawing algorithm used in computer graphics to create a line segment between two specified endpoints. It is a simple and efficient algorithm that works by using the incremental difference between the x coordinates and y coordinates of the two endpoints to draw the line.
      
-The steps involved in DDA line generation algorithm are:
+ 🟥 The steps involved in DDA line generation algorithm are:
 
 ✣ Input the two endpoints of the line segment, (x1,y1) and (x2,y2).
 ✣ Calculate the difference between the x-coordinates and y-coordinates of the endpoints as dx and dy respectively.
@@ -58,16 +58,80 @@ DDA algorithm is relatively easy to implement and is computationally efficient, 
 
  ![image](https://github.com/facetint/FdF/assets/99668549/c7b296df-3abd-4fad-9245-3364f58a73d8)
   
-Assume current pixel coordinates are (x, y)
+✣ Assume current pixel coordinates are (x, y)
 
-Select E as next pixel — increment only X value by 1 - (x+1, y)
+✣ Select E as next pixel — increment only X value by 1 - (x + 1, y)
 
-Select NE as next pixel — increment both X and Y values by 1 - (x+1, y+1)
+✣ Select NE as next pixel — increment both X and Y values by 1 - (x + 1, y + 1)
 
-To select the next pixel, we are using a decision parameter based on the slope error. If the slope error is greater than 0.5, the actual line is near the NE. The line is closer to E when the slope error is less than 0.5.
+✣ To select the next pixel, we are using a decision parameter based on the slope error. If the slope error is greater than 0.5, the actual line is near the NE. The line is closer to E when the slope error is less than 0.5.
 
-At each step, we need to calculate the decision variable incrementally by adding △E or △NE depending on the choice of the pixel.
+✣ At each step, we need to calculate the decision variable incrementally by adding △E or △NE depending on the choice of the pixel.
+
+ 🟥 The steps involved in Bresenham line generation algorithm are:
+
+✣ Declare variable x1, x2, y1, y2, d, E, NE, dx, dy
+
+✣ Enter value of x1,y1,x2,y2  ->>  (Where x1,y1are coordinates of starting point, And x2,y2 are coordinates of Ending point)
+
+✣ First, we need to calculate dx and dy
+         dx = x2-x1
+         dy = y2-y1
+        
+✣ We use dx and dy values to calculate the initial decision variable (d). value of the decision variable is changed on each step.
+         d = 2 * (dy - dx)
+
+✣ Similarly, we need to calculate △E and △NE values. After the first initiation, these values are not changed.
+        E = 2 * dy
+        NE = 2 * (dy - dx)
+        
+✣ Now we have to decide what is the best pixel to choose next, NE or E. We are using the sign of decision parameter to take that decision.
+         
+   ♦️ Case 1: d ≤ 0
+
+   We are going to select pixel E if the decision variable is negative or zero. In this scenario, we only increment the x value by 1 and calculate the new decision variable using △E.     Remember to keep y value as it is.
+  
+   d = d + E
+   x = x + 1
  
+✣ Case 2: d > 0
+
+   When the decision variable is positive, select NE as the next pixel. In addition to calculating the new decision variable and increment the x value, need to increment the y value by 1.
+
+   d = d + NE
+   y = y + 1
+   x = x + 1
+
+Continue until x = x2
+
+Up to now we only talked about the general scenario of this algorithm, where x1 < x2 and 0 < slope < 1. There are three other scenarios we need to consider.
+
+▶︎ Case 1: x1 > x2
+
+   In this case, we should draw the line from left to right. Take (X2, Y2) as the starting point and (X1, Y1) as the endpoint, then continue the Bresenham’s algorithm.
+
+▶︎ Case 2: slope < 0
+
+   In the case of a negative slope, we can get the line with a positive slope by reflecting the original line around the X-axis. We perform Bresenham’s algorithm to the line with a    
+   positive slope and reflect back around the X-axis to get the pixels.
+
+ 🟥 EXAMPLE
+
+ Draw a line from (x1, y1) to (x2, y2). In this scenario, we assume that the slope is negative.
+ Now, instead of using Bresenham from (x1, y1) to (x2, y2), use the algorithm on (x1, -y1) to (x2, -y2). After calculating all the pixels from (x1, -y1) to (x2, -y2), we change the sign of the y values of all the pixels to get the pixels for the original line.
+
+▶︎ Case 3: slope > 1
+
+  In the case of the slope is greater than 1, we can use Bresenham’s algorithm by exchanging the x and y values. after the calculations, exchange the x and y values back to get the 
+  pixels to display on the line.
+
+
+
+
+
+
+
+
 ## ROTATION MATRIX
 
 ![image](https://github.com/facetint/FdF/assets/99668549/4fd8aff4-5bce-417f-a97e-5f13a506f745)   
