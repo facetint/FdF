@@ -25,9 +25,15 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
 ## 3D Rotation Around the Z-Axis
 
-![image](https://github.com/facetint/FdF/assets/99668549/e6fbba11-055d-442c-8c60-356c26ef59c0)
-
+<img width="252" alt="Ekran Resmi 2023-11-19 19 43 51" src="https://github.com/facetint/FdF/assets/99668549/5f5841d5-33f4-43a4-999c-123bb07fbe5a">
 
 ▶︎ We're using a left-handed coordinate system here, meaning that the x-axis points to the right, the y-axis up, and the z-axis into the screen.
 
 
+## 3D Rotation Around the X-Axis
+
+<img width="254" alt="Ekran Resmi 2023-11-19 19 44 11" src="https://github.com/facetint/FdF/assets/99668549/434b620b-0f9e-49ca-ae81-c22d5063be8d">
+
+## 3D Rotation Around the Y-Axis
+
+<img width="254" alt="Ekran Resmi 2023-11-19 19 44 21" src="https://github.com/facetint/FdF/assets/99668549/a765ecf5-f202-4dde-b770-655de85e616a">
