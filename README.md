@@ -7,4 +7,4 @@
 # FdF
 In this project, the Minilibx library is used. The program takes a map as a parameter and creates a 3D representation of it.
 
-This project is one of the projects that are going to prepare you for the next curriculum graphics project which is Cub3d or Minirt.
+🔹 This project is one of the projects that are going to prepare you for the next curriculum graphics project which is Cub3d or Minirt.
