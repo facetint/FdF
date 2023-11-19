@@ -9,6 +9,18 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
 🔹 This project is one of the projects that are going to prepare you for the next curriculum graphics project which is Cub3d or Minirt.
 
+## MiniLibX
+
+  # DESCRIPTION
+  
+  MiniLibX is an easy way to create graphical software, without any X-Window/Cocoa programming knowledge. It provides simple window creation, a drawing tool, image and basic events 
+  management.
+
+  -> mlx.h should be included for a correct use of the MiniLibX API. It only contains function prototypes, no structure is needed.
+
+  
+
+
 ## LINE DRAWING ALGORITHMS
 
    ## 1) DDA LINE ALGORITHM
@@ -27,8 +39,6 @@ In this project, the Minilibx library is used. The program takes a map as a para
 DDA algorithm is relatively easy to implement and is computationally efficient, making it suitable for real-time applications. However, it has some limitations, such as the inability to handle vertical lines and the need for floating-point arithmetic, which can be slow on some systems.
 
 
-
-   
    ## 2) BRESENHAM'S LINE ALGORITHM
 
    <img width="685" alt="Ekran Resmi 2023-11-19 21 09 09" src="https://github.com/facetint/FdF/assets/99668549/4220419b-e74d-4b1b-8bd0-12191363e8e0">
@@ -124,12 +134,6 @@ Up to now we only talked about the general scenario of this algorithm, where x1 
 
   In the case of the slope is greater than 1, we can use Bresenham’s algorithm by exchanging the x and y values. after the calculations, exchange the x and y values back to get the 
   pixels to display on the line.
-
-
-
-
-
-
 
 
 ## ROTATION MATRIX
