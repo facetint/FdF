@@ -19,4 +19,7 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
 ![image](https://github.com/facetint/FdF/assets/99668549/8e04f711-a3f7-4a3e-939f-0fa7a585adc5)
 
-▶︎ In 3D space, rotation can occur about the x, y, or z-axis. 
+▶︎ In 3D space, rotation can occur about the x, y, or z-axis.
+
+▶︎ Our goal is to construct three 3x3 matrices, one for each rotation about one of the axes.
+
