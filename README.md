@@ -71,6 +71,7 @@ DDA algorithm is relatively easy to implement and is computationally efficient, 
  ▶︎ Once we choose a pixel, we have two possible pixels to select as the next pixel.
  
   1- Right side pixel (East — E)
+
   2- Upper right pixel (North East — NE)
 
  ![image](https://github.com/facetint/FdF/assets/99668549/c7b296df-3abd-4fad-9245-3364f58a73d8)
