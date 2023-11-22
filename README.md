@@ -30,12 +30,19 @@ In this project, the Minilibx library is used. The program takes a map as a para
  🟥 The steps involved in DDA line generation algorithm are:
 
 ✣ Input the two endpoints of the line segment, (x1,y1) and (x2,y2).
+
 ✣ Calculate the difference between the x-coordinates and y-coordinates of the endpoints as dx and dy respectively.
+
 ✣ Calculate the slope of the line as m = dy/dx.
+
 ✣ Set the initial point of the line as (x1,y1).
+
 ✣ Loop through the x-coordinates of the line, incrementing by one each time, and calculate the corresponding y-coordinate using the equation y = y1 + m(x – x1).
+
 ✣ Plot the pixel at the calculated (x,y) coordinate.
+
 ✣ Repeat steps 5 and 6 until the endpoint (x2,y2) is reached.
+
 DDA algorithm is relatively easy to implement and is computationally efficient, making it suitable for real-time applications. However, it has some limitations, such as the inability to handle vertical lines and the need for floating-point arithmetic, which can be slow on some systems.
 
 
