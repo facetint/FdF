@@ -34,7 +34,9 @@ If mlx_init() fails to set up the connection to the graphical system, it will re
 
 You may also need to specify the path to the MiniLibX library, using the -L flag.
 
+# FUNCTIONS
 
+mlx_init()
 
 
  
