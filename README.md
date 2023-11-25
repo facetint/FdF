@@ -18,7 +18,27 @@ In this project, the Minilibx library is used. The program takes a map as a para
 
   -> mlx.h should be included for a correct use of the MiniLibX API. It only contains function prototypes, no structure is needed.
 
-  
+  # LIBRARY FUNCTIONS
+ 
+First of all, you need to initialize the connection between your software and the display.The mlx_init() function will create this connection. No parameters are needed, and it will return a void* identifier, used for further calls to the library routines.
+
+If mlx_init() fails to set up the connection to the graphical system, it will return NULL, otherwise a non-null pointer is returned as a connection identifier.
+
+ # LINKING MINILIBX ON MACOSX
+
+♦️ To use MiniLibX functions, you’ll need to link your software with the MiniLibX library, and several system frameworks:
+
+
+<img width="429" alt="Ekran Resmi 2023-11-26 02 09 30" src="https://github.com/facetint/FdF/assets/99668549/b778098e-9893-4711-b08d-8b82cb7fe77c">
+
+
+You may also need to specify the path to the MiniLibX library, using the -L flag.
+
+
+
+
+ 
+
 
 
 ## LINE DRAWING ALGORITHMS
