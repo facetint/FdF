@@ -202,6 +202,8 @@ Up to now we only talked about the general scenario of this algorithm, where x1 
 <img width="252" alt="Ekran Resmi 2023-11-19 19 43 51" src="https://github.com/facetint/FdF/assets/99668549/5f5841d5-33f4-43a4-999c-123bb07fbe5a">
 
 
+
+
 ▶︎ We're using a left-handed coordinate system here, meaning that the x-axis points to the right, the y-axis up, and the z-axis into the screen.
 
 
