@@ -201,22 +201,23 @@ Up to now we only talked about the general scenario of this algorithm, where x1 
 
 <img width="252" alt="Ekran Resmi 2023-11-19 19 43 51" src="https://github.com/facetint/FdF/assets/99668549/5f5841d5-33f4-43a4-999c-123bb07fbe5a">
 
+▶︎ We know that we don't want to affect the z-components of the other basis vectors as they rotate around the z-axis, so we put 0's in the z-components.
 
-
-
-▶︎ We're using a left-handed coordinate system here, meaning that the x-axis points to the right, the y-axis up, and the z-axis into the screen.
-
-
+▶︎ We're using a left-handed coordinate system here, meaning that the x-axis points to the right, the y-axis up, and the z-axis into the screen.S
 
 
 ## 3D Rotation Around the X-Axis
 
 <img width="254" alt="Ekran Resmi 2023-11-19 19 44 11" src="https://github.com/facetint/FdF/assets/99668549/434b620b-0f9e-49ca-ae81-c22d5063be8d">
 
+Now we are interested in the y components and the z components. The x components of the basis vectors are fixed in place because we are rotating around the x axis.
+
 
 ## 3D Rotation Around the Y-Axis
 
 <img width="254" alt="Ekran Resmi 2023-11-19 19 44 21" src="https://github.com/facetint/FdF/assets/99668549/a765ecf5-f202-4dde-b770-655de85e616a">
 
+
+Now we are interested in the x components and z components. The x components of the basis vectors are fixed in place because we are rotating around the y axis.
 
 
