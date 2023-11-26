@@ -40,6 +40,8 @@ You may also need to specify the path to the MiniLibX library, using the -L flag
 
 🔲 **mlx_new_window** : Creates a window and specifies the starting position of this window. Returns a pointer to the created window, which is then used to perform graphical operations on the window.We can give the window height, width and a title.
 
+🔲**mlx_loop** : Used to start the interaction loop. This function is used to listen to window events, track user interaction and run a specific graphics application continuously.
+
 
 <img width="646" alt="Ekran Resmi 2023-11-26 02 30 03" src="https://github.com/facetint/FdF/assets/99668549/2e34e52b-ddbd-4456-a9cf-a49f2db8022e">
 
@@ -49,11 +51,12 @@ You may also need to specify the path to the MiniLibX library, using the -L flag
 
 🔲 **mlx_get_data_addr** : Used to retrieve the data address of an image and related information.
 
-🔲**mlx_loop** : Used to start the interaction loop. This function is used to listen to window events, track user interaction and run a specific graphics application continuously.
-
 🔲**mlx_hook** : Hooking into events is one of the most powerful tools that MiniLibX provides. It allows you to register to any of the aforementioned events with the call of a simple hook registration function.
 
 🔲**mlx_string_put** : Used to draw text on a window. This function is used to draw a string at specified coordinates and in a specific color.
+
+
+<img width="946" alt="Ekran Resmi 2023-11-26 04 23 49" src="https://github.com/facetint/FdF/assets/99668549/63c0819e-7aa5-4af4-a738-ca4d72ad3b32">
 
 
 ## LINE DRAWING ALGORITHMS
