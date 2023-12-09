@@ -189,6 +189,31 @@ Up to now we only talked about the general scenario of this algorithm, where x1 
   pixels to display on the line.
 
 
+## LINEAR GRADIENT
+
+ Creates an image consisting of a gradual transition between two or more colors along a line.
+
+▶︎ First of all we need to find current point position between two points with known colors. Position value must be expressed in percentages.
+
+▶︎ You can calculate this value depending on which delta value is bigger. Delta between x values of known points or delta between y values.
+
+▶︎ Then for creating each light (Red, Green, Blue) we need to get light from start and end point and use linear interpolation. At the end we need to get new color by union red, green and blue light.
+
+   ## Linear array index: 
+   
+   <img width="443" alt="Ekran Resmi 2023-12-10 02 11 06" src="https://github.com/facetint/FdF/assets/99668549/d51b5e24-9ad9-4558-8e16-a8ac957e37d5">
+  
+   Refers to the index number used to access an element at a specific position, treating a two or more dimensional array as a one-dimensional array. In a two-dimensional array, it is used to access the element at a position, usually expressed as (row, column) or (x, y).
+
+
+   For example, consider a matrix:
+
+   <img width="94" alt="Ekran Resmi 2023-12-10 02 12 16" src="https://github.com/facetint/FdF/assets/99668549/c7f34f2d-2623-4acb-b1de-8f8a13e6b392"> <img width="239" alt="Ekran Resmi 2023-12-10 02 12 29" src="https://github.com/facetint/FdF/assets/99668549/894ea3b2-cf17-45ad-9e32-43b6b2e6d2c8">
+
+
+
+
+
 ## ROTATION MATRIX
 
 ![image](https://github.com/facetint/FdF/assets/99668549/4fd8aff4-5bce-417f-a97e-5f13a506f745)   
