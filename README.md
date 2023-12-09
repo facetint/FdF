@@ -259,6 +259,9 @@ In this method, to create an iso view, the side of the object is selected. The l
 
 Non-isometric lines, circles, and other curves are then drawn. Extra lines are erased at the end of the drawings.
 
+## Formula 
+
+
 
 <img width="443" alt="Ekran Resmi 2023-12-10 01 34 06" src="https://github.com/facetint/FdF/assets/99668549/ff556f98-2fa7-4a10-a19a-d0b1cf690cfe">
 
