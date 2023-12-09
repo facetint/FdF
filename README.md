@@ -208,10 +208,27 @@ Up to now we only talked about the general scenario of this algorithm, where x1 
 
    For example, consider a matrix:
 
-   <img width="94" alt="Ekran Resmi 2023-12-10 02 12 16" src="https://github.com/facetint/FdF/assets/99668549/c7f34f2d-2623-4acb-b1de-8f8a13e6b392"> <img width="239" alt="Ekran Resmi 2023-12-10 02 12 29" src="https://github.com/facetint/FdF/assets/99668549/894ea3b2-cf17-45ad-9e32-43b6b2e6d2c8">
+   <img width="94" alt="Ekran Resmi 2023-12-10 02 12 16" src="https://github.com/facetint/FdF/assets/99668549/c7f34f2d-2623-4acb-b1de-8f8a13e6b392"> 
 
+   The indices of this matrix in the linear array are as follows:
+   
+   <img width="239" alt="Ekran Resmi 2023-12-10 02 12 29" src="https://github.com/facetint/FdF/assets/99668549/894ea3b2-cf17-45ad-9e32-43b6b2e6d2c8">
 
+With these indices you can access each element. For example, you can access the number 8, the element at position (2, 1), with 7 as the linear array index.
 
+## Color for pixel :
+
+ And the most interesting is the second function with such parameters as bits_per_pixel and endian.
+ 
+▶︎ What is bits per pixel or bit-depth value?
+    The number of bits used to define a pixel's color shade is its bit-depth. True color is sometimes known as 24-bit color. Some new color display systems offer a 32-bit     color mode. The extra byte, called the alpha channel, is used for control and special effects information.
+
+▶︎ Endian is the most important parameter that we have to consider. For macOS its value is 0, which means little endian.
+▶︎ Big-endian and little-endian are the formats of ordering bytes. Big-endian is the format that we used to know as normal. Little-endian order is reversed.
+
+  <img width="239" alt="Ekran Resmi 2023-12-10 02 12 29" src="https://github.com/facetint/FdF/assets/99668549/d6309020-b9e7-4924-a666-a1f2bffe76eb">
+
+So in the case of little-endian format, you have to use reversed order of color components.
 
 
 ## ROTATION MATRIX
