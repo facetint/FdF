@@ -227,4 +227,56 @@ Now we are interested in the y components and the z components. The x components
 
 Now we are interested in the x components and z components. The x components of the basis vectors are fixed in place because we are rotating around the y axis.
 
+## ISOMETRIC PROJECTION
+
+▶︎ Isometric projection is a method of graphic representation of three-dimensional objects through drawing.
+
+
+<img width="697" alt="Ekran Resmi 2023-12-10 01 10 06" src="https://github.com/facetint/FdF/assets/99668549/a14411ea-e3fe-4d96-b6f6-a9948edfa3d5">
+
+
+
+▶︎ In isometric projection, the plan shows the three visible sides of the object from the same angle to each other. Thus the isometric projection shows the sides of the object at an angle of 120 to each other. Thus these lines of the object are called isometric axes.
+
+▶︎ Lines that are not parallel to the isometric plan are called non-isometric lines. In isometric projection, two isometric axes are held at an angle of 30 with the horizontal plane. While the third axis forms an angle of 90 with the horizontal plane.
+
+
+## Methods of Isometric Drawing
+
+  ## 1. Box Method
+
+This method of isometric drawing is simple. But it takes a lot of time to draw. In box method, the maximum length, width, and height of the object are noted.
+
+These parameters are created according to the method of a box. These parameters of the box are represented as isometric projections.
+
+Make angles of 30 and 90 degrees along the horizontal line in this way. This way the other parts of the object are displayed.
+
+Isometric lines are drawn in this way parallel to the isometric axis. Non-isometric lines, circles, and other curves are then drawn. Extra lines are erased at the end of the drawings.
+
+  ## 2. OffSet Method
+
+In this method, to create an iso view, the side of the object is selected. The length and width of objects are drawn parallel to the isometric axis.
+
+Non-isometric lines, circles, and other curves are then drawn. Extra lines are erased at the end of the drawings.
+
+
+<img width="443" alt="Ekran Resmi 2023-12-10 01 34 06" src="https://github.com/facetint/FdF/assets/99668549/ff556f98-2fa7-4a10-a19a-d0b1cf690cfe">
+
+<img width="443" alt="Ekran Resmi 2023-12-10 01 48 37" src="https://github.com/facetint/FdF/assets/99668549/34e206ca-b5f1-4b21-ae0c-d689a1b478c3">
+
+<img width="531" alt="Ekran Resmi 2023-12-10 01 50 35" src="https://github.com/facetint/FdF/assets/99668549/91fa1d1f-7e01-4f64-9da6-d8fa6d97ff7b">
+
+<img width="531" alt="Ekran Resmi 2023-12-10 01 50 47" src="https://github.com/facetint/FdF/assets/99668549/bc3a8a6a-fa56-4281-975f-2b3bf434b48e">
+
+These formulas are commonly used to express isometric projection, describing how a point in 3D space is projected onto a 2D plane with respect to the isometric angle. It's important to understand the original coordinates and the isometric angle before applying these formulas.
+
+
+
+
+
+
+
+
+
+
 
