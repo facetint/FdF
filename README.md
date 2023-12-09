@@ -264,9 +264,7 @@ Non-isometric lines, circles, and other curves are then drawn. Extra lines are e
 
 <img width="443" alt="Ekran Resmi 2023-12-10 01 48 37" src="https://github.com/facetint/FdF/assets/99668549/34e206ca-b5f1-4b21-ae0c-d689a1b478c3">
 
-<img width="531" alt="Ekran Resmi 2023-12-10 01 50 35" src="https://github.com/facetint/FdF/assets/99668549/91fa1d1f-7e01-4f64-9da6-d8fa6d97ff7b">
-
-<img width="531" alt="Ekran Resmi 2023-12-10 01 50 47" src="https://github.com/facetint/FdF/assets/99668549/bc3a8a6a-fa56-4281-975f-2b3bf434b48e">
+<img width="531" alt="Ekran Resmi 2023-12-10 01 50 35" src="https://github.com/facetint/FdF/assets/99668549/91fa1d1f-7e01-4f64-9da6-d8fa6d97ff7b"> <img width="531" alt="Ekran Resmi 2023-12-10 01 50 47" src="https://github.com/facetint/FdF/assets/99668549/bc3a8a6a-fa56-4281-975f-2b3bf434b48e">
 
 These formulas are commonly used to express isometric projection, describing how a point in 3D space is projected onto a 2D plane with respect to the isometric angle. It's important to understand the original coordinates and the isometric angle before applying these formulas.
 
