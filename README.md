@@ -10,6 +10,8 @@ In this project, the Minilibx library is used. The program takes a map as a para
 🔹 This project is one of the projects that are going to prepare you for the next curriculum graphics project which is Cub3d or Minirt.
 
 
+
+
 <img width="1276" alt="Ekran Resmi 2023-12-10 00 12 10" src="https://github.com/facetint/FdF/assets/99668549/feb7d55e-29c7-4c9b-b837-461353f394bd">
 
 
