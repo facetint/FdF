@@ -106,12 +106,12 @@ DDA algorithm is relatively easy to implement and is computationally efficient, 
  
   ▶︎ The method works as follows:
 
-    Assume a pixel P1'(x1',y1'),then select subsequent pixels as we work our may to the night, one pixel position at a time in the horizontal direction toward P2'(x2',y2').
-    Once a pixel in choose at any step , The next pixel is :
+   Assume a pixel P1'(x1',y1'),then select subsequent pixels as we work our may to the night, one pixel position at a time in the horizontal direction toward P2'(x2',y2').
+   Once a pixel in choose at any step , The next pixel is :
 
-    1- Either the one to its right (lower-bound for the line)
-    2 - One top its right and up (upper-bound for the line)
-     ▶︎ The line is best approximated by those pixels that fall the least distance from the path between P1',P2'.
+   1- Either the one to its right (lower-bound for the line)
+   2 - One top its right and up (upper-bound for the line)
+    ▶︎ The line is best approximated by those pixels that fall the least distance from the path between P1',P2'.
 
   ▶︎ Once we choose a pixel, we have two possible pixels to select as the next pixel.
   
